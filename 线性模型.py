@@ -10,7 +10,6 @@ def load_data(filename):
     # 确保数据转换为数值类型
     return df['x'].astype(float).values, df['y'].astype(float).values
 
-
 # 加载数据
 try:
     x_data, y_data = load_data('D:\\360MoveData\\Users\\hm943\\Desktop\\train.csv')
